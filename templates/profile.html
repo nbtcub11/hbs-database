@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}{{ person.name }} - HBS Database{% endblock %}
+
+{% block content %}
+<div class="profile-page">
+    <a href="/" class="back-link">&larr; Back to Search</a>
+
+    <div class="profile-card profile-full">
+        <div class="profile-header">
+            <div class="profile-info">
+                <h1>{{ person.name }}</h1>
+                <p class="profile-title">{{ person.title }}</p>
+
+                {% if person.type == 'faculty' %}
+                <span class="badge badge-faculty">Faculty</span>
+                {% else %}
+                <span class="badge badge-fellow">Executive Fellow</span>
+                {% endif %}
+
+                {% if person.unit %}
+                <p class="profile-unit">{{ person.unit }}</p>
+                {% endif %}
+
+                {% if person.organization %}
+                <p class="profile-org">{{ person.organization }}</p>
+                {% endif %}
+
+                {% if person.mba_year %}
+                <p class="profile-mba">MBA {{ person.mba_year }}</p>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="profile-body">
+            {% if person.bio %}
+            <div class="profile-section">
+                <h2>About</h2>
+                <p class="profile-bio">{{ person.bio }}</p>
+            </div>
+            {% endif %}
+
+            <div class="profile-section">
+                <h2>Contact & Links</h2>
+                <div class="contact-info">
+                    {% if person.email %}
+                    <p><strong>Email:</strong> <a href="mailto:{{ person.email }}">{{ person.email }}</a></p>
+                    {% endif %}
+                    {% if person.phone %}
+                    <p><strong>Phone:</strong> {{ person.phone }}</p>
+                    {% endif %}
+                    {% if person.profile_url and person.type == 'faculty' %}
+                    <p><strong>HBS Profile:</strong> <a href="{{ person.profile_url }}" target="_blank">View on HBS.edu</a></p>
+                    {% endif %}
+                    {% if person.linkedin_url %}
+                    <p><strong>LinkedIn:</strong> <a href="{{ person.linkedin_url }}" target="_blank">View on LinkedIn</a></p>
+                    {% endif %}
+                </div>
+            </div>
+
+            {% if person.tag_names %}
+            <div class="profile-section">
+                <h2>Keywords</h2>
+                <div class="profile-tags">
+                    {% for tag in person.tag_names.split(',') %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

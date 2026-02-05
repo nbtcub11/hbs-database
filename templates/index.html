@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="search-container">
+    <div class="search-hero">
+        <h1>Find HBS Faculty & Executive Fellows</h1>
+        <p class="hero-subtitle">Search {{ stats.total }} profiles across {{ stats.faculty }} faculty members and {{ stats.fellows }} executive fellows</p>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="search-input" placeholder="Search by name, expertise, organization..." autocomplete="off">
+        <button id="search-btn" class="btn btn-primary">Search</button>
+    </div>
+
+    <div class="content-layout">
+        <aside class="filters-sidebar">
+            <div class="filter-section">
+                <h3>Type</h3>
+                <label class="filter-option">
+                    <input type="radio" name="type" value="" checked>
+                    <span>All</span>
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="type" value="faculty">
+                    <span>Faculty ({{ stats.faculty }})</span>
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="type" value="fellow">
+                    <span>Executive Fellows ({{ stats.fellows }})</span>
+                </label>
+            </div>
+
+            <div class="filter-section">
+                <h3>Academic Unit</h3>
+                <label class="filter-option">
+                    <input type="radio" name="unit" value="" checked>
+                    <span>All Units</span>
+                </label>
+                {% for unit in units %}
+                <label class="filter-option">
+                    <input type="radio" name="unit" value="{{ unit.unit }}">
+                    <span>{{ unit.unit }} ({{ unit.count }})</span>
+                </label>
+                {% endfor %}
+            </div>
+
+            <div class="filter-section">
+                <h3>Expertise & Industry</h3>
+                <div class="tag-filters">
+                    {% for tag in tags %}
+                    {% if tag.category in ['expertise', 'industry'] %}
+                    <label class="tag-filter" title="{{ tag.category }}">
+                        <input type="checkbox" name="tags" value="{{ tag.name }}">
+                        <span class="tag-chip">{{ tag.name }} ({{ tag.count }})</span>
+                    </label>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <button id="clear-filters" class="btn btn-secondary">Clear Filters</button>
+        </aside>
+
+        <div class="results-container">
+            <div class="results-header">
+                <span id="results-count">Loading...</span>
+                <div class="sort-options">
+                    <label for="sort-select">Sort by:</label>
+                    <select id="sort-select">
+                        <option value="name">Name (A-Z)</option>
+                        <option value="name-desc">Name (Z-A)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="results-list" class="results-list">
+                <div class="loading">Loading results...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Profile Modal -->
+<div id="profile-modal" class="modal">
+    <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <div id="profile-content"></div>
+    </div>
+</div>
+{% endblock %}
