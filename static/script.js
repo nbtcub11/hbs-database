@@ -134,11 +134,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function getInitials(name) {
+        if (!name) return '?';
+        const parts = name.replace(/[^\w\s]/g, '').trim().split(/\s+/);
+        if (parts.length >= 2) {
+            return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
+        }
+        return parts[0].substring(0, 2).toUpperCase();
+    }
+
     function createResultCard(person) {
         const badgeClass = person.type === 'faculty' ? 'badge-faculty' : 'badge-fellow';
         const badgeText = person.type === 'faculty' ? 'Faculty' : 'Executive Fellow';
+        const avatarClass = person.type === 'faculty' ? 'faculty' : 'fellow';
+        const initials = getInitials(person.name);
 
-        const tags = person.tag_names ? person.tag_names.split(',').slice(0, 5) : [];
+        const tags = person.tag_names ? person.tag_names.split(',').slice(0, 4) : [];
         const tagsHtml = tags.length > 0
             ? `<div class="card-tags">${tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>`
             : '';
@@ -157,6 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         return `
             <div class="result-card" data-id="${person.id}">
+                <div class="card-avatar ${avatarClass}">${initials}</div>
                 <div class="card-content">
                     <div class="card-name">${escapeHtml(person.name)}</div>
                     <div class="card-title">${escapeHtml(person.title || '')}</div>
@@ -188,6 +200,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function renderProfileModal(person) {
         const badgeClass = person.type === 'faculty' ? 'badge-faculty' : 'badge-fellow';
         const badgeText = person.type === 'faculty' ? 'Faculty' : 'Executive Fellow';
+        const avatarClass = person.type === 'faculty' ? 'faculty' : 'fellow';
+        const initials = getInitials(person.name);
 
         const tags = person.tag_names ? person.tag_names.split(',') : [];
         const tagsHtml = tags.length > 0
@@ -219,11 +233,12 @@ document.addEventListener('DOMContentLoaded', function() {
             : '';
 
         const linkedinHtml = person.linkedin_url
-            ? `<p><strong>LinkedIn:</strong> <a href="${escapeHtml(person.linkedin_url)}" target="_blank">View on LinkedIn</a></p>`
+            ? `<p><strong>LinkedIn:</strong> <a href="${escapeHtml(person.linkedin_url)}" target="_blank">Search on LinkedIn</a></p>`
             : '';
 
         modalContent.innerHTML = `
             <div class="profile-header">
+                <div class="profile-avatar ${avatarClass}">${initials}</div>
                 <div class="profile-info">
                     <h1>${escapeHtml(person.name)}</h1>
                     <p class="profile-title">${escapeHtml(person.title || '')}</p>
