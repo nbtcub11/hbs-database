@@ -221,7 +221,8 @@ def profile(person_id):
     return render_template('profile.html', person=person)
 
 
-if __name__ == '__main__':
+def initialize_app():
+    """Initialize database and semantic search on startup."""
     # Ensure database exists
     database.init_db()
 
@@ -234,13 +235,18 @@ if __name__ == '__main__':
     # Initialize semantic search if available
     if SEMANTIC_SEARCH_AVAILABLE and embeddings:
         if embeddings.is_available():
-            # Try to load existing index
+            # Try to load existing index or build it
             index_stats = embeddings.get_index_stats()
             if index_stats.get('loaded'):
                 print(f"Semantic search index loaded with {index_stats['count']} entries")
             else:
-                print("No semantic search index found. Build with: python embeddings.py")
-                print("  (Requires VOYAGE_API_KEY or OPENAI_API_KEY in .env)")
+                # Try to build the index if we have data
+                stats = database.get_stats()
+                if stats['total'] > 0:
+                    print("Building semantic search index...")
+                    embeddings.rebuild_from_database()
+                else:
+                    print("No semantic search index found. Build with: python embeddings.py")
         else:
             print("Semantic search: API keys not configured")
     else:
@@ -253,8 +259,17 @@ if __name__ == '__main__':
         else:
             print("LLM summaries: ARCEE_API_KEY not configured")
 
+
+# Initialize on import (for gunicorn)
+initialize_app()
+
+
+if __name__ == '__main__':
+    port = int(os.environ.get("PORT", 5001))
+    debug = os.environ.get("RAILWAY_ENVIRONMENT") is None  # Debug only in local dev
+
     print("\n🚀 Starting HBS Faculty & Fellows Database")
-    print("   Open http://localhost:5001 in your browser")
+    print(f"   Open http://localhost:{port} in your browser")
     print("-" * 50)
 
-    app.run(debug=True, port=5001)
+    app.run(debug=debug, host="0.0.0.0", port=port)
