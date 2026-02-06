@@ -10,6 +10,19 @@
     <div class="search-box">
         <input type="text" id="search-input" placeholder="Search by name, expertise, organization..." autocomplete="off">
         <button id="search-btn" class="btn btn-primary">Search</button>
+        <label class="ai-toggle" title="Enable AI-powered semantic search">
+            <input type="checkbox" id="ai-search-toggle">
+            <span class="toggle-slider"></span>
+            <span class="toggle-label">AI Search</span>
+        </label>
+    </div>
+
+    <div id="ai-summary" class="ai-summary hidden">
+        <div class="ai-summary-header">
+            <span class="ai-icon">✨</span>
+            <span>AI Summary</span>
+        </div>
+        <p id="ai-summary-text"></p>
     </div>
 
     <div class="content-layout">

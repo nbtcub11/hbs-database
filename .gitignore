@@ -10,9 +10,15 @@ ENV/
 # Database
 data/hbs.db
 
+# Embeddings index (regenerated on startup)
+data/faiss.index
+data/embeddings.npy
+data/id_mapping.json
+
 # IDE
 .vscode/
 .idea/
 
 # OS
 .DS_Store
+.env

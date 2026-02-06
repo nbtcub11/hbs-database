@@ -10,9 +10,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('profile-modal');
     const modalContent = document.getElementById('profile-content');
     const modalClose = document.querySelector('.modal-close');
+    const aiSearchToggle = document.getElementById('ai-search-toggle');
+    const aiSummaryBox = document.getElementById('ai-summary');
+    const aiSummaryText = document.getElementById('ai-summary-text');
 
     let currentResults = [];
     let debounceTimer;
+    let aiSearchEnabled = false;
+    let aiSearchAvailable = false;
+
+    // Check AI search availability
+    checkAIStatus();
 
     // Initial load
     performSearch();
@@ -55,6 +63,24 @@ document.addEventListener('DOMContentLoaded', function() {
         renderResults();
     });
 
+    // AI Search toggle
+    if (aiSearchToggle) {
+        aiSearchToggle.addEventListener('change', function() {
+            aiSearchEnabled = this.checked;
+            if (aiSearchEnabled && !aiSearchAvailable) {
+                this.checked = false;
+                aiSearchEnabled = false;
+                alert('AI Search is not available. Please configure API keys.');
+                return;
+            }
+            // Hide AI summary when toggling off
+            if (!aiSearchEnabled && aiSummaryBox) {
+                aiSummaryBox.classList.add('hidden');
+            }
+            performSearch();
+        });
+    }
+
     // Modal close
     modalClose.addEventListener('click', closeModal);
     modal.addEventListener('click', function(e) {
@@ -69,6 +95,32 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    function checkAIStatus() {
+        fetch('/api/ai-status')
+            .then(response => response.json())
+            .then(status => {
+                aiSearchAvailable = status.semantic_search_available &&
+                                   status.embeddings_configured &&
+                                   status.index_loaded;
+
+                // Update toggle appearance based on availability
+                const toggleLabel = document.querySelector('.ai-toggle');
+                if (toggleLabel) {
+                    if (!aiSearchAvailable) {
+                        toggleLabel.classList.add('disabled');
+                        toggleLabel.title = 'AI Search not available - configure API keys and build index';
+                    } else {
+                        toggleLabel.classList.remove('disabled');
+                        toggleLabel.title = 'Enable AI-powered semantic search';
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Failed to check AI status:', error);
+                aiSearchAvailable = false;
+            });
+    }
+
     function performSearch() {
         const query = searchInput.value.trim();
         const type = document.querySelector('input[name="type"]:checked')?.value || '';
@@ -76,6 +128,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedTags = Array.from(document.querySelectorAll('input[name="tags"]:checked'))
             .map(cb => cb.value)
             .join(',');
+
+        // Hide AI summary by default
+        if (aiSummaryBox) {
+            aiSummaryBox.classList.add('hidden');
+        }
+
+        // Use semantic search if AI is enabled and there's a query
+        if (aiSearchEnabled && query) {
+            performSemanticSearch(query);
+            return;
+        }
 
         const params = new URLSearchParams();
         if (query) params.append('q', query);
@@ -95,6 +158,40 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(error => {
                 console.error('Search error:', error);
                 resultsList.innerHTML = '<div class="loading">Error loading results. Please try again.</div>';
+            });
+    }
+
+    function performSemanticSearch(query) {
+        resultsList.innerHTML = '<div class="loading"><span class="ai-icon">✨</span> AI is searching...</div>';
+
+        const params = new URLSearchParams();
+        params.append('q', query);
+        params.append('k', 20);
+        params.append('summary', 'true');
+
+        fetch(`/api/semantic-search?${params.toString()}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    console.error('Semantic search error:', data.error);
+                    resultsList.innerHTML = `<div class="loading">AI Search error: ${data.error}</div>`;
+                    return;
+                }
+
+                currentResults = data.results;
+
+                // Display AI summary if available
+                if (data.ai_summary && aiSummaryBox && aiSummaryText) {
+                    aiSummaryText.textContent = data.ai_summary;
+                    aiSummaryBox.classList.remove('hidden');
+                }
+
+                // Don't sort semantic results - they're already ranked by relevance
+                renderResults();
+            })
+            .catch(error => {
+                console.error('Semantic search error:', error);
+                resultsList.innerHTML = '<div class="loading">Error with AI search. Please try again.</div>';
             });
     }
 
@@ -224,10 +321,6 @@ document.addEventListener('DOMContentLoaded', function() {
             `
             : '';
 
-        const emailHtml = person.email
-            ? `<p><strong>Email:</strong> <a href="mailto:${escapeHtml(person.email)}">${escapeHtml(person.email)}</a></p>`
-            : '';
-
         const profileUrlHtml = person.profile_url && person.type === 'faculty'
             ? `<p><strong>HBS Profile:</strong> <a href="${escapeHtml(person.profile_url)}" target="_blank">View on HBS.edu</a></p>`
             : '';
@@ -253,7 +346,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="profile-section">
                     <h2>Contact & Links</h2>
                     <div class="contact-info">
-                        ${emailHtml}
                         ${profileUrlHtml}
                         ${linkedinHtml}
                     </div>
