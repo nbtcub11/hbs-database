@@ -336,6 +336,22 @@ body {
     top: 5rem;
     max-height: calc(100vh - 7rem);
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--medium-gray) transparent;
+}
+
+/* Show scrollbar on webkit browsers (Chrome, Safari) */
+.filters-sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filters-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.filters-sidebar::-webkit-scrollbar-thumb {
+    background-color: var(--medium-gray);
+    border-radius: 4px;
 }
 
 .filter-section {
