@@ -3,8 +3,8 @@
 {% block content %}
 <div class="search-container">
     <div class="search-hero">
-        <h1>Find HBS Faculty & Executive Fellows</h1>
-        <p class="hero-subtitle">Search {{ stats.total }} profiles across {{ stats.faculty }} faculty members and {{ stats.fellows }} executive fellows</p>
+        <h1>Find HBS Faculty, Fellows & Advisors</h1>
+        <p class="hero-subtitle">Search {{ stats.total }} profiles across {{ stats.faculty }} faculty members, {{ stats.fellows }} executive fellows, and {{ stats.advisors }} Rock Center advisors</p>
     </div>
 
     <div class="search-box">
@@ -40,6 +40,10 @@
                 <label class="filter-option">
                     <input type="radio" name="type" value="fellow">
                     <span>Executive Fellows ({{ stats.fellows }})</span>
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="type" value="advisor">
+                    <span>Rock Center Advisors ({{ stats.advisors }})</span>
                 </label>
             </div>
 

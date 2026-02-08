@@ -25,8 +25,9 @@ def load_data_to_db():
     """Load scraped data into the database."""
     faculty_path = DATA_DIR / "faculty.json"
     fellows_path = DATA_DIR / "fellows.json"
+    advisors_path = DATA_DIR / "rock_center_advisors.json"
 
-    if not faculty_path.exists() and not fellows_path.exists():
+    if not faculty_path.exists() and not fellows_path.exists() and not advisors_path.exists():
         print("No data files found. Run scraper.py first.")
         return
 
@@ -49,6 +50,14 @@ def load_data_to_db():
         for person in fellows:
             database.insert_person(person)
         print(f"Loaded {len(fellows)} executive fellows")
+
+    # Load Rock Center advisors
+    if advisors_path.exists():
+        with open(advisors_path) as f:
+            advisors = json.load(f)
+        for person in advisors:
+            database.insert_person(person)
+        print(f"Loaded {len(advisors)} Rock Center advisors")
 
     # Rebuild FTS index
     database.rebuild_fts()

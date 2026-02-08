@@ -1,0 +1,587 @@
+[
+  {
+    "name": "Gil Addo",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Healthcare", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Gil Addo is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He currently serves as SVP at CVS Health following Oak Street Health's acquisition of RubiconMD, which he co-founded. Previously, he held roles at Xerox and Cubist Pharmaceuticals (acquired by Merck)."
+  },
+  {
+    "name": "José Vicente Aguerrevere",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Retail", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "José Vicente Aguerrevere is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Co-Founder and CEO of Takeoff Technologies, a micro-fulfillment automation company. Previously, he led Día Día Practimercados and held positions at Booz Allen Hamilton, Merrill Lynch, and Procter & Gamble."
+  },
+  {
+    "name": "Andrzej Baraniak",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Andrzej Baraniak is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Founder and Chief Revenue Officer of Albert, an AI-powered marketing platform. Previously, he worked with Boston Consulting Group."
+  },
+  {
+    "name": "Nadia Boujarwah",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Retail", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Nadia Boujarwah is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Co-Founder and former CEO of Dia & Co., a plus-size fashion company acquired by FullBeauty Brands. Previously, she worked in investment banking at Perella Weinberg Partners."
+  },
+  {
+    "name": "Eric Boutin",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Healthcare", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Eric Boutin is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Founder of Harvard Street Advising and has experience with Redesign Health, dRx Capital (Novartis), Evolve (acquired by HubSpot), Good Start Genetics (acquired by Invitae), and Flex Pharma (IPO)."
+  },
+  {
+    "name": "Carolyn Childers",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Consumer", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Carolyn Childers is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Co-Founder and former CEO of Chief, a private network for women executives. Her career spans Handy, Coupang, Soap.com (acquired by Amazon), Victoria's Secret, Avon, and Deutsche Bank."
+  },
+  {
+    "name": "Carissa Bryce Christensen",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Aerospace", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Carissa Bryce Christensen is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Founder and CEO of BryceTech, a space and technology consulting firm. She also founded QxBranch (acquired by Rigetti), The Tauri Group (acquired by LMI), and CenTauri Solutions (acquired by CSC)."
+  },
+  {
+    "name": "Rana el Kaliouby",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Rana el Kaliouby, Ph.D., is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Co-Founder and former CEO of Affectiva (acquired by Smart Eye), a pioneer in emotion AI. She is also co-founder and managing partner of Blue Tulip Ventures and was previously at MIT Media Lab."
+  },
+  {
+    "name": "Maria McClay",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Consumer", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Maria McClay is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Founder and CEO of 9 COMMONS. Previously, she served as General Manager of Northern Europe at Gucci, led Fashion and Beauty Cloud at Google, and worked at McKinsey."
+  },
+  {
+    "name": "Shirish Nimgaonkar",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Shirish Nimgaonkar is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Founder and CEO of eBlissAI, and previously served as president of Nanoheal and managing director at Alantra. Earlier in his career, he held roles at Intel and Scion Photonics (acquired by JDS Uniphase)."
+  },
+  {
+    "name": "Carlos Reines",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Healthcare", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Carlos Reines is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Co-Founder and former President of RubiconMD, a virtual specialty care platform acquired by Oak Street Health/CVS Health. Previously, he worked at Telefónica and Siemens Medical."
+  },
+  {
+    "name": "Kenneth Salas",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Fintech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Kenneth Salas is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Co-Founder and CEO of nuDesk. Previously, he founded Camino Financial (acquired by a competitor) and held positions at Palladium Equity Partners and Barclays Capital."
+  },
+  {
+    "name": "Avni Patel Thompson",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Consumer", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Avni Patel Thompson is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Founder and CEO of The Commons Company, and previously held brand and marketing roles at P&G, adidas, and Starbucks. She also founded Poppy, a YC-backed childcare company."
+  },
+  {
+    "name": "Shara Ticku",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Sustainability", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Shara Ticku is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She is the Co-Founder and CEO of C16 Biosciences, a sustainable materials company creating palm oil alternatives. Previously, she worked at Goldman Sachs, Clinton Health Access Initiative, United Nations, and Progyny."
+  },
+  {
+    "name": "Amy Villeneuve",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Robotics", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Amy Villeneuve is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. She serves on boards including Reframe Systems, Rgo Robotics, Rapid Liquid Print, Resurety, Ori, and Humatics. She was formerly COO and President of Kiva Systems (acquired by Amazon for $775M) and VP at Amazon."
+  },
+  {
+    "name": "Joshua Yguado",
+    "title": "Entrepreneur-in-Residence",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Entrepreneurship", "category": "expertise"},
+      {"name": "Media/Entertainment", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Joshua Yguado is an Entrepreneur-in-Residence at Harvard Business School's Rock Center for Entrepreneurship. He is the Co-Founder and CEO of Jam City, a leading mobile entertainment company. Previously, he held positions at Fox Entertainment, MTV Networks, and Univision."
+  },
+  {
+    "name": "Kent Bennett",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "B2B Software", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Kent Bennett is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. He is a Partner at Bessemer Venture Partners focusing on B2B application software and consumer technology. Previously, he worked as a management consultant at Bain & Company and in entertainment. He holds an MBA from Harvard Business School (Baker Scholar)."
+  },
+  {
+    "name": "Alice Brooks",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Deep Tech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Alice Brooks is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Partner at Khosla Ventures investing in deep tech and sustainability startups, with expertise in climate, robotics, consumer hardware, and STEM education. She founded Roominate, a STEM education company acquired by Playmonster. She holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Tina Bou-Saba",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Consumer", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Tina Bou-Saba is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is the Founder of CXT Investments and Co-Founder of Verity Venture Partners, specializing in beauty and wellness with early investments in Olive & June, Kosas, and Beekeeper's Naturals. She previously worked at Victoria's Secret, Sanford Bernstein, and Morgan Stanley. She is a Harvard Business School Baker Scholar."
+  },
+  {
+    "name": "Payal Divakaran",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Healthcare", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Payal Divakaran is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Partner at .406 Ventures where she co-leads the healthcare investing practice, focusing on healthcare technology and services companies. She previously co-founded SpotRocket and participated in the Rock Center Accelerator. She holds an MBA with Distinction from Harvard Business School."
+  },
+  {
+    "name": "Tasneem Dohadwala",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "B2B Tech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Tasneem Dohadwala is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Founding Partner at Excelestar Ventures, investing in B2B tech and medical device companies with disruptive technology. She is also a Managing Partner at Golden Seeds and previously worked at Lehman Brothers and Matrix Partners."
+  },
+  {
+    "name": "Dawn Dobras",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Consumer", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Dawn Dobras is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Co-Founder and General Partner at Capital F VC, investing in the female economy in health, AI, and digital commerce. Previously, she was CEO of Credo Beauty and held leadership roles at Old Navy. She is an HBS alumna."
+  },
+  {
+    "name": "Richard Dulude",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Richard Dulude is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. He is a Co-Founder and General Partner at Underscore VC, investing in emergent technologies including crypto, XR, AI/ML, and cloud infrastructure. Previously, he was a quant at Goldman Sachs and founded a machine learning startup. He is a former member of the United States Ski Team."
+  },
+  {
+    "name": "Rob Go",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Consumer Tech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Rob Go is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. He is a Co-Founder and Partner at NextView Ventures, focusing on consumer-oriented software companies across marketplaces, vertical SaaS, fintech, AI, and digital health. Previously, he led ventures at Spark Capital and held product roles at eBay. He holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Rick Grinnell",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Rick Grinnell is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. He is a Founder and Managing Partner at Glasswing Ventures, investing in AI-enabled security and enterprise infrastructure. He has 24+ years of venture capital and operating experience, including senior roles at Fairhaven Capital. He holds BS and MS degrees from MIT and an MBA from HBS."
+  },
+  {
+    "name": "Kanu Gulati",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "AI/Technology", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Kanu Gulati is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Partner at Khosla Ventures investing in enterprise AI applications and robotics/autonomous systems. She brings 10+ years of operating experience as a research scientist and engineer at Intel, Cadence, and startups. She holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Sarah Hodges",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Enterprise", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Sarah Hodges is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a General Partner and Co-Founder at Pillar VC, investing in enterprise and consumer companies. She co-founded Pillar with 22 CEOs including leaders from DraftKings, Ginkgo Bioworks, and Wayfair. Previously, she co-founded Intelligent.ly and served on the management team at Pluralsight."
+  },
+  {
+    "name": "Nimi Katragadda",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Fintech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Nimi Katragadda is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Partner at BoxGroup investing in early-stage fintech, healthcare, marketplaces, and software companies. Previously, she worked in investment banking at J.P. Morgan and as a Product Marketing Manager at Google. She was named to Forbes 30 Under 30 for Venture Capital in 2017."
+  },
+  {
+    "name": "Juan Luis Leungli",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Enterprise", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Juan Luis Leungli is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. He is a Co-Founder and Partner at Tectonic Ventures, investing in bold entrepreneurs reimagining enterprise at pre-seed and seed stage. Previously, he worked at General Catalyst and Javelin Venture Partners. He was named 'Rising Star in VC' by the New England Venture Capital Association in 2017."
+  },
+  {
+    "name": "Lisa Lewin",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "EdTech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Lisa Lewin is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Senior Advisor and CEO in Residence at Primary Venture Partners with 25+ years of experience advising startups and scaling organizations. She served as CEO of General Assembly and held senior roles in digital transformation at Pearson and McGraw-Hill."
+  },
+  {
+    "name": "Wendy Lim",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Consumer Tech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Wendy Lim is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a General Partner at Burst Capital, an early-stage investor with deep experience in strategy, marketplaces, and consumer internet. She shaped revenue operations at Yelp during its growth phase and previously held roles at eBay and Bain & Company. She holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Jennifer Neundorfer",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "B2B Software", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Jennifer Neundorfer is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Co-Founder and Managing Partner at January Ventures, focusing on pre-seed B2B software startups transforming legacy industries. She previously launched and scaled media and advertising businesses at 21st Century Fox and YouTube. As a Cuban-American, she is one of the few Latina GPs in venture."
+  },
+  {
+    "name": "Jackie Shoback",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Fintech", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Jackie Shoback is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a Co-Founder and Managing Director at 1414 Ventures, focusing on early-stage digital identity investments. She has 25+ years of experience at Staples, Fidelity Investments, TIAA, and Boston Private Financial Holdings. She holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Brittany Davis Wilson",
+    "title": "Venture Capital Advisor",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Venture Capital", "category": "expertise"},
+      {"name": "Diversity Investing", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Brittany Davis Wilson is a Venture Capital Advisor at Harvard Business School's Rock Center for Entrepreneurship. She is a General Partner at Backstage Capital, investing in 200+ startups led by women, people of color, and LGBTQ+ entrepreneurs. She brings experience from Village Capital, Techstars, and Bank of America Merrill Lynch. She holds an MBA from Harvard Business School."
+  },
+  {
+    "name": "Larissa Bifano",
+    "title": "Legal Specialist",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Legal", "category": "expertise"},
+      {"name": "Intellectual Property", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Larissa Bifano is a Legal Specialist at Harvard Business School's Rock Center for Entrepreneurship. She is a Partner at DLA Piper specializing in patent and intellectual property strategy, prosecution, and litigation. She serves as the Boston-based patent prosecution national chair at DLA Piper and provides expert legal counsel to MBA students and entrepreneurs."
+  },
+  {
+    "name": "Steve Cagnetta",
+    "title": "Legal Specialist",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Legal", "category": "expertise"},
+      {"name": "Corporate Law", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Steve Cagnetta is a Legal Specialist at Harvard Business School's Rock Center for Entrepreneurship. He is the Co-Founder and Principal of Company Counsel, LLC, an outsourced general counsel firm serving emerging companies. With over 20 years of experience advising entrepreneurs and startups, he previously served as a Lieutenant in the U.S. Navy Judge Advocate General's Corps."
+  },
+  {
+    "name": "Alexander Civetta",
+    "title": "Legal Specialist",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Legal", "category": "expertise"},
+      {"name": "Technology Transactions", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Alexander Civetta is a Legal Specialist at Harvard Business School's Rock Center for Entrepreneurship. He is a Member at Mintz specializing in technology transactions, intellectual property licensing, and entrepreneurship matters. Nationally ranked in Chambers USA for Start Ups and Emerging Companies since 2022, he advises innovators across software, technology, and biotechnology sectors."
+  },
+  {
+    "name": "Jeff Goldman",
+    "title": "Legal Specialist",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Legal", "category": "expertise"},
+      {"name": "Immigration", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Jeff Goldman is a Legal Specialist at Harvard Business School's Rock Center for Entrepreneurship. He is the Founder of Goldman & Partners Immigration Law LLP and serves as the sole Legal Specialist for Immigration Matters at the Rock Center, mentoring 50-75 HBS students annually. With over 32 years in business immigration law, he conceived the Massachusetts Global Entrepreneur in Residence Program."
+  },
+  {
+    "name": "Matthew Reardon",
+    "title": "Legal Specialist",
+    "unit": "Rock Center for Entrepreneurship",
+    "type": "advisor",
+    "profile_url": null,
+    "image_url": null,
+    "email": null,
+    "tags": [
+      {"name": "Legal", "category": "expertise"},
+      {"name": "M&A", "category": "industry"},
+      {"name": "Rock Center", "category": "unit"}
+    ],
+    "bio": "Matthew Reardon is a Legal Specialist at Harvard Business School's Rock Center for Entrepreneurship. He is a Partner in Goodwin's Business Law department and member of the Technology M&A practice, representing companies that power innovation in technology and life sciences. His clients include entrepreneurs, venture capital and private equity investors, and companies at all stages of growth."
+  }
+]

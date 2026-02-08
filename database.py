@@ -29,7 +29,7 @@ def init_db():
             phone TEXT,
             bio TEXT,
             image_url TEXT,
-            type TEXT CHECK(type IN ('faculty', 'fellow')),
+            type TEXT CHECK(type IN ('faculty', 'fellow', 'advisor')),
             unit TEXT,
             organization TEXT,
             mba_year TEXT,
@@ -287,6 +287,9 @@ def get_stats():
     cursor.execute("SELECT COUNT(*) FROM people WHERE type = 'fellow'")
     fellow_count = cursor.fetchone()[0]
 
+    cursor.execute("SELECT COUNT(*) FROM people WHERE type = 'advisor'")
+    advisor_count = cursor.fetchone()[0]
+
     cursor.execute("SELECT COUNT(*) FROM tags")
     tag_count = cursor.fetchone()[0]
 
@@ -294,8 +297,9 @@ def get_stats():
     return {
         'faculty': faculty_count,
         'fellows': fellow_count,
+        'advisors': advisor_count,
         'tags': tag_count,
-        'total': faculty_count + fellow_count
+        'total': faculty_count + fellow_count + advisor_count
     }
 
 
