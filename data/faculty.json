@@ -32,7 +32,7 @@
     "bio": "Susanna Gallani is the Tai Family Associate Professor of Business Administration in the Accounting and Management unit. At HBS, she co-teaches the MBA elective curriculum course Transforming Health Care Delivery."
   },
   {
-    "name": "Robert Simons",
+    "name": "Robert\u00a0Simons",
     "title": "Faculty",
     "unit": "Accounting & Management",
     "type": "faculty",
@@ -48,7 +48,7 @@
     "bio": "Robert Simons is the Baker Foundation Professor at Harvard Business School, where he has taught strategy execution and management control systems for over 30 years. He is the author of 'Levers of Control,' which won the Notable Contribution to Management Accounting Literature Award and established a framework for balancing innovation and control in organizations."
   },
   {
-    "name": "Susanna Gallani",
+    "name": "Susanna\u00a0Gallani",
     "title": "Faculty",
     "unit": "Accounting & Management",
     "type": "faculty",
@@ -64,7 +64,7 @@
     "bio": "Susanna Gallani is the Tai Family Associate Professor of Business Administration in the Accounting and Management unit. At HBS, she co-teaches the MBA elective curriculum course Transforming Health Care Delivery."
   },
   {
-    "name": "Suraj Srinivasan",
+    "name": "Suraj\u00a0Srinivasan",
     "title": "Faculty",
     "unit": "Accounting & Management",
     "type": "faculty",
@@ -208,23 +208,23 @@
     "bio": "Debora Spar is the Jaime and Josefina Chua Tiampo Professor of Business Administration and Senior Associate Dean for Business and Global Society at Harvard Business School. She previously served as President of Barnard College and President of Lincoln Center, and her research focuses on gender, technology, and social change."
   },
   {
-    "name": "Natalia Garbiras-Díaz",
+    "name": "Natalia Garbiras-D\u00edaz",
     "title": "Faculty",
     "unit": "Business, Government & International Economy",
     "type": "faculty",
     "profile_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1457929&click=byline",
     "image_url": null,
-    "email": "natalia_garbiras-díaz@hbs.edu",
+    "email": "natalia_garbiras-d\u00edaz@hbs.edu",
     "tags": [
       {
         "name": "Business, Government & International Economy",
         "category": "unit"
       }
     ],
-    "bio": "Natalia Garbiras-Díaz is an Assistant Professor in the Business, Government, and International Economy Unit at Harvard Business School. Her research focuses on corruption, public goods provision, and accountability in Latin America, and her work on citizen oversight and electoral integrity was published in the American Economic Review."
+    "bio": "Natalia Garbiras-D\u00edaz is an Assistant Professor in the Business, Government, and International Economy Unit at Harvard Business School. Her research focuses on corruption, public goods provision, and accountability in Latin America, and her work on citizen oversight and electoral integrity was published in the American Economic Review."
   },
   {
-    "name": "Vincent Pons",
+    "name": "Vincent\u00a0Pons",
     "title": "Faculty",
     "unit": "Business, Government & International Economy",
     "type": "faculty",
@@ -240,7 +240,7 @@
     "bio": "Vincent Pons is a Professor at Harvard Business School whose research examines the foundations of democracy, including voter participation, preference formation, and the effects of elections on policy. He received the 2023 Best Young French Economist Award and has published in top journals including Econometrica and the American Economic Review."
   },
   {
-    "name": "Jesse M. Shapiro",
+    "name": "Jesse\u00a0M.\u00a0Shapiro",
     "title": "Faculty",
     "unit": "Business, Government & International Economy",
     "type": "faculty",
@@ -256,7 +256,7 @@
     "bio": "Jesse Shapiro is the George Gund Professor of Economics and Business Administration at Harvard Business School. A 2021 MacArthur Fellow, his research on media bias, ideological polarization, and behavioral economics has been widely recognized, with The Economist naming him one of the 8 best young economists in the world."
   },
   {
-    "name": "Ebehi Iyoha",
+    "name": "Ebehi\u00a0Iyoha",
     "title": "Faculty",
     "unit": "Business, Government & International Economy",
     "type": "faculty",
@@ -272,7 +272,7 @@
     "bio": "Ebehi Iyoha is an Assistant Professor in the Entrepreneurial Management Unit at Harvard Business School. Her research sits at the intersection of industrial organization and international trade, examining how inter-firm networks shape productivity, innovation, and trade in both advanced and emerging economies."
   },
   {
-    "name": "Jaya Y. Wen",
+    "name": "Jaya\u00a0Y.\u00a0Wen",
     "title": "Faculty",
     "unit": "Business, Government & International Economy",
     "type": "faculty",
@@ -464,7 +464,7 @@
     "bio": "Richard Tedlow is the Class of 1949 Professor of Business Administration at Harvard Business School, specializing in business history. He authored 'Giants of Enterprise: Seven Business Innovators and the Empires They Built,' selected as one of Business Week's top 10 business books of 2001, and 'The Watson Dynasty' about IBM's founders."
   },
   {
-    "name": "Paul A. Gompers",
+    "name": "Paul\u00a0A.\u00a0Gompers",
     "title": "Faculty",
     "unit": "Entrepreneurial Management",
     "type": "faculty",
@@ -592,7 +592,7 @@
     "bio": "Luis Viceira is the George E. Bates Professor at Harvard Business School and a leading expert on asset allocation strategies for long-term investors. His research has won multiple awards including the TIAA-CREF Paul Samuelson Award and the Graham and Dodd Award from the CFA Institute."
   },
   {
-    "name": "John D. Macomber",
+    "name": "John\u00a0D.\u00a0Macomber",
     "title": "Faculty",
     "unit": "Finance",
     "type": "faculty",
@@ -608,7 +608,7 @@
     "bio": "John Macomber is a Senior Lecturer in the Finance Unit and Faculty Chair of the HBS Africa Research Center at Harvard Business School. His work focuses on climate adaptation and infrastructure finance, particularly public-private partnerships for delivering resilient infrastructure in developing and emerging markets."
   },
   {
-    "name": "Richard S. Ruback",
+    "name": "Richard\u00a0S.\u00a0Ruback",
     "title": "Faculty",
     "unit": "Finance",
     "type": "faculty",
@@ -944,7 +944,7 @@
     "bio": "Julian De Freitas is an Assistant Professor at Harvard Business School and Director of the Ethical Intelligence Lab. His research examines how AI impacts marketing, branding, and customer relationships, and he has published over 40 articles in journals including Nature Human Behavior and the Journal of Consumer Research."
   },
   {
-    "name": "Eva Ascarza",
+    "name": "Eva\u00a0Ascarza",
     "title": "Faculty",
     "unit": "Marketing",
     "type": "faculty",
@@ -960,7 +960,7 @@
     "bio": "Eva Ascarza is the Jakurski Family Associate Professor at Harvard Business School and co-founder of the Customer Intelligence Lab. Her research on customer retention challenges the common practice of focusing on 'risk of churning,' showing that high-risk customers are not always the best targets for retention programs."
   },
   {
-    "name": "Irene Georgescu",
+    "name": "Irene\u00a0Georgescu",
     "title": "Faculty",
     "unit": "Marketing",
     "type": "faculty",
@@ -1072,7 +1072,7 @@
     "bio": "Joshua Schwartzstein is the Cahners-Rabb Professor of Business Administration at Harvard Business School. A behavioral economist, he incorporates psychologically realistic assumptions about attention, memory, and perception into economic frameworks, and won the 2025 Arrow Award for his research on clinical trials."
   },
   {
-    "name": "Jillian J. Jordan",
+    "name": "Jillian\u00a0J.\u00a0Jordan",
     "title": "Faculty",
     "unit": "Negotiation, Organizations & Markets",
     "type": "faculty",
@@ -1088,7 +1088,7 @@
     "bio": "Jillian Jordan is an Assistant Professor at Harvard Business School whose research investigates moral behavior and the psychology that surrounds it, particularly moral signaling and reputation management. Her work has been published in Nature, PNAS, and Harvard Business Review."
   },
   {
-    "name": "Julian J. Zlatev",
+    "name": "Julian\u00a0J.\u00a0Zlatev",
     "title": "Faculty",
     "unit": "Negotiation, Organizations & Markets",
     "type": "faculty",
@@ -1213,7 +1213,7 @@
         "category": "unit"
       }
     ],
-    "bio": "James Riley is an Assistant Professor at Harvard Business School and Principal Investigator of the blackbox Lab at the D³ Institute. An economic sociologist, his research focuses on digital transformations and their role in addressing historic inequities related to race, culture, technology, and business."
+    "bio": "James Riley is an Assistant Professor at Harvard Business School and Principal Investigator of the blackbox Lab at the D\u00b3 Institute. An economic sociologist, his research focuses on digital transformations and their role in addressing historic inequities related to race, culture, technology, and business."
   },
   {
     "name": "David G. Fubini",
@@ -1264,7 +1264,7 @@
     "bio": "Ryan Buell is the C.D. Spangler Professor of Business Administration at Harvard Business School. His research investigates how operational transparency and service design affect customer behavior and firm performance, and he has received multiple awards for teaching excellence."
   },
   {
-    "name": "Jon M. Jachimowicz",
+    "name": "Jon\u00a0M.\u00a0Jachimowicz",
     "title": "Faculty",
     "unit": "Organizational Behavior",
     "type": "faculty",
@@ -1280,7 +1280,7 @@
     "bio": "Jon Jachimowicz is an Assistant Professor at Harvard Business School who studies the experience and consequences of passion at work. His research reveals that passion is developed rather than found and can lead to emotional fatigue and burnout, based on interviews with 200 high achievers including Fortune 500 CEOs."
   },
   {
-    "name": "Lakshmi Ramarajan",
+    "name": "Lakshmi\u00a0Ramarajan",
     "title": "Faculty",
     "unit": "Organizational Behavior",
     "type": "faculty",
@@ -1296,7 +1296,7 @@
     "bio": "Lakshmi Ramarajan is the Anna Spangler Nelson and Thomas C. Nelson Associate Professor at Harvard Business School. Her research examines how people manage their professional identity alongside other identities traditionally considered outside work, such as family roles, values, race, class, and gender."
   },
   {
-    "name": "David G. Fubini",
+    "name": "David\u00a0G.\u00a0Fubini",
     "title": "Faculty",
     "unit": "Organizational Behavior",
     "type": "faculty",
@@ -1392,20 +1392,20 @@
     "bio": "Ramon Casadesus-Masanell is the Herman C. Krannert Professor of Business Administration at Harvard Business School. He studies strategic interaction between organizations with different business models and co-edits the Journal of Economics and Management Strategy."
   },
   {
-    "name": "Juan Alcácer",
+    "name": "Juan Alc\u00e1cer",
     "title": "Faculty",
     "unit": "Strategy",
     "type": "faculty",
     "profile_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=178197&click=byline",
     "image_url": null,
-    "email": "juan_alcácer@hbs.edu",
+    "email": "juan_alc\u00e1cer@hbs.edu",
     "tags": [
       {
         "name": "Strategy",
         "category": "unit"
       }
     ],
-    "bio": "Juan Alcácer is the James J. Hill Professor of Business Administration at Harvard Business School. His research focuses on international strategies in the telecommunications industry and how competition affects location decisions of multinationals, and he received the Greenhill Award for Outstanding Service."
+    "bio": "Juan Alc\u00e1cer is the James J. Hill Professor of Business Administration at Harvard Business School. His research focuses on international strategies in the telecommunications industry and how competition affects location decisions of multinationals, and he received the Greenhill Award for Outstanding Service."
   },
   {
     "name": "Rebecca Karp",
@@ -1424,7 +1424,7 @@
     "bio": "Rebecca Karp is an Assistant Professor in the Strategy Unit at Harvard Business School. A field researcher and ethnographer, she studies how companies formulate and execute strategies, particularly how innovation supports strategy execution, and won the 2020 William H. Newman Award from the Academy of Management."
   },
   {
-    "name": "Andy Wu",
+    "name": "Andy\u00a0Wu",
     "title": "Faculty",
     "unit": "Strategy",
     "type": "faculty",
@@ -1440,7 +1440,7 @@
     "bio": "Andy Wu is the Arjun and Minoo Melwani Family Associate Professor at Harvard Business School. His research examines how technology entrepreneurs organize resources and adapt to cutting-edge technologies like generative AI and digital platforms, and he has received the HBS Wyss Award and Poets & Quants 40 Under 40 recognition."
   },
   {
-    "name": "Raffaella Sadun",
+    "name": "Raffaella\u00a0Sadun",
     "title": "Faculty",
     "unit": "Strategy",
     "type": "faculty",
@@ -1584,7 +1584,7 @@
     "bio": "Marco Iansiti is the David Sarnoff Professor of Business Administration at Harvard Business School and co-director of the Laboratory for Information Science at Harvard. His research examines digital transformation and AI's impact on strategy, and he co-authored the bestselling 'Competing in the Age of AI.'"
   },
   {
-    "name": "Elisabeth C. Paulson",
+    "name": "Elisabeth\u00a0C.\u00a0Paulson",
     "title": "Faculty",
     "unit": "Technology & Operations Management",
     "type": "faculty",
@@ -1600,7 +1600,7 @@
     "bio": "Elisabeth Paulson is an Assistant Professor in the Technology and Operations Management Unit at Harvard Business School. Her research focuses on operations for social good, designing analytical methods and algorithms for allocating scarce resources efficiently and fairly in areas like immigration and food policy."
   },
   {
-    "name": "Hise O. Gibson",
+    "name": "Hise\u00a0O.\u00a0Gibson",
     "title": "Faculty",
     "unit": "Technology & Operations Management",
     "type": "faculty",
@@ -1662,5 +1662,29 @@
       }
     ],
     "bio": "Feng Zhu is the MBA Class of 1958 Professor of Business Administration at Harvard Business School, where he leads the Platform Lab. His research focuses on platform strategy, digital transformation, and business model innovation, and he has advised firms including Alphabet, Meta, Microsoft, and Uber."
+  },
+  {
+    "name": "Emily R. McComb",
+    "title": "Senior Lecturer of Business Administration",
+    "unit": "Finance",
+    "type": "faculty",
+    "profile_url": "https://www.hbs.edu/faculty/Pages/profile.aspx?facId=282292",
+    "image_url": null,
+    "email": "emccomb@hbs.edu",
+    "tags": [
+      {
+        "name": "Finance",
+        "category": "unit"
+      },
+      {
+        "name": "Healthcare",
+        "category": "industry"
+      },
+      {
+        "name": "Investment Management",
+        "category": "expertise"
+      }
+    ],
+    "bio": "Emily R. McComb is a Senior Lecturer of Business Administration in the Finance Unit at Harvard Business School. She teaches Finance 2 in the required curriculum of the MBA program, serves as a Section Chair, and is a co-leader of the HBS Impact Investment Fund in the elective curriculum. Prior to joining the HBS faculty in 2017, Emily was a Managing Director at Bain Capital, where she was sector head of the Healthcare team at the firm's public equity division. Before Bain Capital, she was an analyst and a member of the Small Cap team at Fidelity Management and Research, focused on Healthcare, Industrial and Consumer companies. She earned a BA with Great Distinction from McGill University in Economics and Political Science, and an MBA with Distinction from Harvard Business School."
   }
 ]
